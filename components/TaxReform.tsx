@@ -120,7 +120,7 @@ export default function TaxReform() {
             </div>
           </div>
           <a
-            href="https://wa.me/5544991643393"
+            href="https://wa.me/5515996484338"
             target="_blank"
             rel="noopener noreferrer"
             className="shrink-0 bg-white text-[#0f2244] font-bold text-sm px-7 py-3.5 rounded-full hover:bg-gray-100 transition-colors whitespace-nowrap"

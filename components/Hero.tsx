@@ -70,7 +70,7 @@ export default function Hero() {
 
         <motion.div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center" {...fadeUp(0.75)}>
           <a
-            href="https://wa.me/5544991643393"
+            href="https://wa.me/5515996484338"
             target="_blank"
             rel="noopener noreferrer"
             className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-[#C41E3A] text-white font-semibold px-8 py-4 rounded-full hover:bg-[#e02444] transition-all hover:scale-105 shadow-lg"

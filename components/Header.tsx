@@ -36,9 +36,9 @@ export default function Header() {
             alt="Victória Belli"
             width={80}
             height={80}
-            className="object-contain w-14 h-14 md:w-16 md:h-16"
+            className="hidden sm:block object-contain w-14 h-14 md:w-16 md:h-16"
           />
-          <div className="hidden sm:block">
+          <div>
             <p
               className={`text-sm font-semibold leading-tight transition-colors duration-300 ${scrolled || open ? "text-[#1B3A6B]" : "text-white"}`}
               style={{ fontFamily: "var(--font-playfair)" }}
@@ -62,7 +62,7 @@ export default function Header() {
             </a>
           ))}
           <a
-            href="https://wa.me/5544991643393"
+            href="https://wa.me/5515996484338"
             target="_blank"
             rel="noopener noreferrer"
             className={`text-sm font-medium px-5 py-2 rounded-full transition-all duration-300 ${
@@ -112,7 +112,7 @@ export default function Header() {
               </a>
             ))}
             <a
-              href="https://wa.me/5544991643393"
+              href="https://wa.me/5515996484338"
               target="_blank"
               rel="noopener noreferrer"
               className="block mt-4 text-center bg-[#1B3A6B] text-white text-sm font-medium px-5 py-2.5 rounded-full"

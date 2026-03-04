@@ -5,13 +5,8 @@ import { motion } from "framer-motion";
 const contacts = [
   {
     name: "Juliana",
-    phone: "(44) 9164-3393",
-    whatsapp: "5544991643393",
-  },
-  {
-    name: "Paula",
-    phone: "(44) 99801-7806",
-    whatsapp: "5544998017806",
+    phone: "(15) 9 9648-4338",
+    whatsapp: "5515996484338",
   },
 ];
 
