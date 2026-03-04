@@ -10,12 +10,12 @@ export default function Footer() {
             <p className="text-white text-sm font-semibold" style={{ fontFamily: "var(--font-playfair)" }}>
               VICTÓRIA BELLI
             </p>
-            <p className="text-white/40 text-xs tracking-wider">PERSONAL CONTÁBIL</p>
+            <p className="text-white/40 text-xs tracking-wider">ESCRITÓRIO CONTÁBIL</p>
           </div>
         </div>
 
         <p className="text-white/40 text-xs text-center">
-          © {new Date().getFullYear()} Victória Belli Personal Contábil. Todos os direitos reservados.
+          © {new Date().getFullYear()} Victória Belli Escritório Contábil. Todos os direitos reservados.
         </p>
 
         <div className="flex gap-4">

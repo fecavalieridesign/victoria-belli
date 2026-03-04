@@ -15,9 +15,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Victória Belli — Personal Contábil",
+  title: "Victória Belli — Escritório Contábil",
   description:
-    "Contabilidade personalizada para sua empresa. Escrituração contábil, fiscal e trabalhista com ética, qualidade e responsabilidade. Sorocaba-SP e Maringá-PR.",
+    "Escritório contábil especializado em assessoria e consultoria empresarial. Escrituração contábil, fiscal e trabalhista com ética, qualidade e responsabilidade. Sorocaba-SP.",
 };
 
 export default function RootLayout({

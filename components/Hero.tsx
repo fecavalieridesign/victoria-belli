@@ -28,7 +28,7 @@ export default function Hero() {
           <div className="bg-white rounded-full p-3 sm:p-4 shadow-lg">
             <Image
               src="/logo.png"
-              alt="Victória Belli Personal Contábil"
+              alt="Victória Belli Escritório Contábil"
               width={110}
               height={110}
               className="object-contain rounded-full w-20 h-20 sm:w-28 sm:h-28"
@@ -48,7 +48,7 @@ export default function Hero() {
           className="text-base sm:text-lg md:text-xl text-white/60 tracking-[0.2em] sm:tracking-[0.3em] uppercase mb-6 sm:mb-8 font-medium"
           {...fadeUp(0.3)}
         >
-          Personal Contábil
+          Escritório Contábil
         </motion.p>
 
         <motion.div className="w-16 h-0.5 bg-[#C41E3A] mx-auto mb-6 sm:mb-8" {...fadeUp(0.4)} />

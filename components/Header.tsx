@@ -46,7 +46,7 @@ export default function Header() {
               VICTÓRIA BELLI
             </p>
             <p className={`text-xs leading-tight tracking-wider transition-colors duration-300 md:text-gray-500 ${scrolled || open ? "text-gray-500" : "text-white/60"}`}>
-              PERSONAL CONTÁBIL
+              ESCRITÓRIO CONTÁBIL
             </p>
           </div>
         </a>
