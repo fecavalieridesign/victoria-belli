@@ -36,7 +36,7 @@ export default function Contact() {
           </motion.p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-6 max-w-3xl mx-auto mb-12">
+        <div className="flex justify-center mb-12">
           {contacts.map((c, i) => (
             <motion.div
               key={c.name}

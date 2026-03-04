@@ -23,7 +23,7 @@ export default function Header() {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 md:bg-white/95 md:backdrop-blur-sm md:border-b md:border-gray-100 md:shadow-sm ${
         scrolled || open
           ? "bg-white/95 backdrop-blur-sm border-b border-gray-100 shadow-sm"
           : "bg-transparent border-b border-transparent"
@@ -56,7 +56,7 @@ export default function Header() {
             <a
               key={link.href}
               href={link.href}
-              className={`text-sm font-medium transition-colors duration-300 ${scrolled ? "text-gray-600 hover:text-[#1B3A6B]" : "text-white/80 hover:text-white"}`}
+              className={`text-sm font-medium transition-colors duration-300 md:text-gray-600 md:hover:text-[#1B3A6B] ${scrolled ? "text-gray-600 hover:text-[#1B3A6B]" : "text-white/80 hover:text-white"}`}
             >
               {link.label}
             </a>
@@ -65,7 +65,7 @@ export default function Header() {
             href="https://wa.me/5515996484338"
             target="_blank"
             rel="noopener noreferrer"
-            className={`text-sm font-medium px-5 py-2 rounded-full transition-all duration-300 ${
+            className={`text-sm font-medium px-5 py-2 rounded-full transition-all duration-300 md:bg-[#1B3A6B] md:text-white md:hover:bg-[#0f2244] ${
               scrolled
                 ? "bg-[#1B3A6B] text-white hover:bg-[#0f2244]"
                 : "bg-white/20 text-white border border-white/30 hover:bg-white/30"
