@@ -40,12 +40,12 @@ export default function Header() {
           />
           <div>
             <p
-              className={`text-sm font-semibold leading-tight transition-colors duration-300 ${scrolled || open ? "text-[#1B3A6B]" : "text-white"}`}
+              className={`text-sm font-semibold leading-tight transition-colors duration-300 md:text-[#1B3A6B] ${scrolled || open ? "text-[#1B3A6B]" : "text-white"}`}
               style={{ fontFamily: "var(--font-playfair)" }}
             >
               VICTÓRIA BELLI
             </p>
-            <p className={`text-xs leading-tight tracking-wider transition-colors duration-300 ${scrolled || open ? "text-gray-500" : "text-white/60"}`}>
+            <p className={`text-xs leading-tight tracking-wider transition-colors duration-300 md:text-gray-500 ${scrolled || open ? "text-gray-500" : "text-white/60"}`}>
               PERSONAL CONTÁBIL
             </p>
           </div>
